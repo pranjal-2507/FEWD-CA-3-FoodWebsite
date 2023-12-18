@@ -1,0 +1,152 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Fredoka:wght@500;600&family=IBM+Plex+Mono:wght@500&family=Lilita+One&family=Poppins&family=Roboto+Slab:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+    /* height: 350vh; */
+}
+h2{
+    position: absolute;
+    top: 610px;
+    left: 620px;
+}
+header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: black;;
+    color: white;
+
+}
+#variety {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    
+}
+#home{
+    margin-right: 20px;
+    display: flex;
+    align-self: center;
+}
+#bgImg{
+    background-image: url("bgImg.jpg");
+    width: 100%;
+    filter: blur(4px);
+   
+}
+#text{
+    z-index: 2;
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    font-size: 38px;
+    text-shadow: 2px 1px ;
+}
+#description{
+    margin: 0 250px 250px ;
+    position: absolute;
+    top: 200px;
+    padding: 20px 60px 20px 60px;
+    font-size: 20px;
+    font-weight:normal;
+    background-color: #C4DAE0;
+    line-height: 30px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px  grey;
+    text-align: center;
+}
+#Input{
+    position: absolute;
+    top: 550px;
+    width: 700px;
+    text-align: center;
+    height:40px;
+    border-radius: 15px;
+   box-shadow:6px 6px 6px  black ;
+  
+    left: 400px;
+}
+#searchBtn{
+    position: absolute;
+    top: 550px;
+    left:1005px;
+    width: 101px;
+    border-radius: 15px;
+    height: 45px;
+    background-color: orange;
+    border: none;
+    outline-style: none;
+    cursor: pointer;
+}
+#Random{
+    position: absolute;
+    top: 675px;
+    left: 520px;
+    border: 30px solid white;
+    box-shadow: 4px 4px 4px 3px black;
+    border-radius: 17px;
+    cursor: pointer;
+    
+}
+#RandomFoodName{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* left: 700px; */
+    top: -50px;
+    margin-left: 520px;
+    font-size: 20px;
+    background-color: black ;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    width: 380px;
+    border-radius: 12px;
+}
+#MoreResults{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 100px;
+   text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.foodContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 105px;
+    /* margin-top: 25px; */
+    justify-content: center;
+    background-color: black;
+    padding-top: 105px;
+    padding-bottom: 50px;
+
+}
+#cards{
+    border: 5px solid #bfbfbf;
+    border-radius: 15px;
+}
+#foot{
+    position: absolute;
+    top: 300vh;
+    height: 450px;
+}
+ol:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:700px) {
+    
+}

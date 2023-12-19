@@ -6,7 +6,7 @@
     <title>Food website_pure plate pleasure</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
     <header>
         <img width="300px" height="130px" id="logo" src="logo.png" alt="">
         <li id="variety">
@@ -18,9 +18,10 @@
         </li>
         <img id="home" width="150px" height="50px"  src="home.png" alt="">
     </header>
-    <div>
-        <img id="bgImg" src="bgImg.jpg" alt="">
+    <div id="bgImg" >
+        <!-- <img width="100%" id="bgImg" src="bgImg.jpg" alt="">  -->
         <div>
+            <div class="contain">
             <h1  id="text">Welcome to Pure Plate Pleasure!</h1>
             <p id="description">Our menu is a carefully curated symphony of flavors, each dish crafted with precision and passion. From the first bite to the last, embark on a gastronomic journey that tantalizes your taste buds and leaves a lasting impression. At pure plate pleasure, we pride ourselves on delivering a dining experience that transcends the ordinary into a harmonious blend of creativity and quality. Whether you're a connoisseur seeking culinary excellence or a casual diner in search of delightful surprises, our menu promises to satisfy every palate. Join us and savor the extraordinary at pure plate pleasure, where each dish tells a unique story of culinary brilliance...</p>
         </div>
@@ -31,28 +32,32 @@
         </div>
         <div id="RandomImg">
             <h2>Trending Specialities...</h2>
-            <img id="Random" width="350px"  src="https://www.themealdb.com//images//media//meals//llcbn01574260722.jpg" alt="">
+            <img id="Random" width="350px"  src="" alt="">
             <span id="RandomFoodName">
-                Noodles
+                
             </span>
         </div>
-        <div id="MoreResults">Dig deeper into deliciousness! <br> Search to see more tempting recipes and elevate your culinary experience.
-        </div>
-        <div class="foodContainer">
-            <div id="cards"><img width="300px" src="https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg" alt=""></div>
-            <div id="cards"><img width="300px" src="https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg" alt=""></div>
-            <div id="cards"><img width="300px" src="https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg" alt=""></div>
-            <div id="cards"><img width="300px" src="https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg" alt=""></div>
-            <div id="cards"><img width="300px" src="https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg" alt=""></div>
-            <div id="cards"><img width="300px" src="https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg" alt=""></div>
-            <div id="cards"><img width="300px" src="https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg" alt=""></div>
-            <div id="cards"><img width="300px" src="https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg" alt=""></div>
-            <div id="cards"><img width="300px" src="https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg" alt=""></div>
+    </div>
+        <div id="modal">
+            <img id="close" width="30px" src="close.jpg" alt="">
+            <h2 class="Ingredients">Ingredients</h2>
+            <ul id="ingNum">
+                <li>Milk</li>
+                <li>Bread</li>
+                <li>Butter</li>
+                <li>Jam</li>
+                
+            </ul>
         </div>
 
-    <!-- <footer>
-        <img id="foot" width="1510px" src="footer.png" alt="">
-    </footer> -->
+        <div id="MoreResults">Dig deeper into deliciousness! <br> Search to see more tempting recipes and elevate your culinary experience.
+        </div>
+        <div id="foodContainer">
+           
+    </div>
+        </div>
+
+   
 </body>
 </html>
 <script src="app.js"></script>

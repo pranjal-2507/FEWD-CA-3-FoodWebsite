@@ -1,2 +1,19 @@
-FEWD CA-3 A Food Website - Pure Plate Pleasure!
+# FEWD CA-3 FOOD WEBSITE
+# Pure Plate Pleasure
+# Overview
+Pure Plate Pleasure is a delightful food website that aims to bring joy to your plate. Whether you're a seasoned chef or a cooking novice, our platform offers a variety of recipes, cooking tips, and food-related content to satisfy your culinary cravings. From appetizers to desserts, we strive to inspire and guide you on a journey of pure pleasure in the kitchen.
+
+Features
+1. Recipe Collection
+2. Diverse Cuisines
+3. Cooking Tips and Techniques
+4. Seasonal Specials
+5. Community and Interaction
+
+
+The food items in the website are been accessed with the help of the API provided.
+The website contains a a header which provides the decription of the website , below there is search where the user can search food based on the food categories (Examples - breakfast, vegan, dessert, chicken, etc.) By entering the categories the all the food items will get dislayed at the end of the website page.
+Below the header the section for diaplaying the random images after reloading the page, the user the can see the particular food ingredients.
+
+
  

@@ -119,11 +119,11 @@ header {
 
 #searchBtn {
   position: absolute;
-  top: 650px;
+  top: 652px;
   left: 79%;
-  width: 101px;
+  width: 100px;
   border-radius: 15px;
-  height: 45px;
+  height: 42px;
   background-color: orange;
   border: none;
   outline-style: none;

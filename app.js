@@ -34,7 +34,7 @@ SearchBtn.addEventListener('click', function () {
     SearchFoods(InputFood.value)
 })
 
-const ingredientsList = document.getElementById("ingNum")
+const ingredientsList = document.getElementById("ingNum") 
 async function getIngredients(param) {
     ingredientsList.innerHTML = ""
     try {

@@ -1,3 +1,5 @@
+// Declaring Variables
+
 const RandomImg = document.getElementById("Random");
 const RandomfoodName = document.getElementById("RandomFoodName");
 const SearchBtn = document.getElementById("searchBtn")
@@ -7,6 +9,7 @@ const IngCloseBtn = document.getElementById("close");
 const modal = document.getElementById("modal");
 let id;
 
+// Function to fetch Random Images with API
 async function FetchRandomImg() {
     const response = await fetch("https://www.themealdb.com/api/json/v1/1/random.php");
     const data = await response.json()
@@ -34,6 +37,8 @@ SearchBtn.addEventListener('click', function () {
     SearchFoods(InputFood.value)
 })
 
+// Function to display ingredients of specific dish on the modal
+
 const ingredientsList = document.getElementById("ingNum") 
 async function getIngredients(param) {
     ingredientsList.innerHTML = ""
@@ -54,6 +59,7 @@ async function getIngredients(param) {
     }
 }
 
+// Function Created to Access food category searched in the search bar
 async function SearchFoods(a) {
 
     console.log(a)
@@ -71,7 +77,7 @@ async function SearchFoods(a) {
 
 }
 
-
+// Function used to display the search food items at the end of the website
 function ShowFoodItems(meals) {
     const FoodContainer = document.getElementById("foodContainer");
     FoodContainer.innerHTML = "";

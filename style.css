@@ -201,6 +201,17 @@ ol:hover {
   text-decoration: underline;
 }
 
+footer p {
+margin-top: 0.5rem;
+font-size: 1.4rem;
+color: #fff;
+text-align: center;
+background-color: black;
+color: white;
+padding-top: 15px;
+padding-bottom: 20px;
+margin-bottom: -100px;
+}
 @media only screen and (max-width: 900px) {
   #text {
     width: 700px;
